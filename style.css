@@ -37,9 +37,44 @@ header nav ul li a {
 /* Hero Section Styles */
 .hero {
     position: relative;
-    background-image: url('./images/sol3.jpg');
+    background-image: url('./images/home.webp');
     background-size: cover;
     background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero {
+    position: relative;
+    background-image: url('./images/home.webp');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+.halt {
+    position: relative;
+    background-image: url('https://cdn.shopify.com/s/files/1/0838/4957/files/hero-2_r2.jpg?v=1618423839');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+.hall{
+    position: relative;
+    background-color:#1799a9;
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -60,13 +95,32 @@ header nav ul li a {
     z-index: 1;
 }
 
+.halt::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity (0.5) to make overlay darker/lighter */
+    z-index: 1;
+}
+
 /* Hero Content Styling */
 .hero-content {
     position: relative;
     z-index: 2;
     max-width: 700px;
 }
+.sect{
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
 
+}
+.sectt{
+    background-color:#1799a9;
+}
 .hero-content h1 {
     font-size: 3rem;
     margin-bottom: 15px;
@@ -100,6 +154,7 @@ section {
 
 #about {
     background-color: #ecf0f1;
+    margin-top: 4rem;
 }
 
 #services {
