@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoNova - Leading Nigeria to a Sustainable Future</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Navbar -->
     <header>
         <div class="logo">EcoNova</div>
         <nav>
-            <ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul id="nav-menu">
                 <li><a href="#home">Products</a></li>
                 <li><a href="#about">Our Mission</a></li>
                 <li><a href="#services">Services</a></li>
@@ -24,7 +27,9 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>EcoNova</h1>
-            <p>Leading Akwa-Ibom Transition to Clean and Sustainable Energy<br> For every product sold, a person living in energy poverty gains access to safe lighting and charging through EcoNova.<br> We aim at impacting the lives of over 2.6 million people in Akwa-Ibom - and we're just getting started.</p>
+            <p>Leading Akwa-Ibom Transition to Clean and Sustainable Energy<br> For every product sold, a person living
+                in energy poverty gains access to safe lighting and charging through EcoNova.<br> We aim at impacting
+                the lives of over 2.6 million people in Akwa-Ibom - and we're just getting started.</p>
             <a href="#services" class="hero-btn">Our Services</a>
         </div>
     </section>
@@ -42,32 +47,40 @@
       </section> -->
     <section id="about" class="halt">
         <div class="sect">
-        <h2>Our Mission</h2>
-        <p>We are on a mission
-            to empower people & protect our planet
-            through access to renewable energy<br>EcoNova is dedicated to building a sustainable future for people in Akwa-Ibom. We focus on smart energy solutions, advanced renewable energy materials, e-mobility, and biofuel production to drive the country’s transition from fossil fuels to modern alternatives.</p>
-    </div>
+            <h2>Our Mission</h2>
+            <p>We are on a mission
+                to empower people & protect our planet
+                through access to renewable energy<br>EcoNova is dedicated to building a sustainable future for people
+                in Akwa-Ibom. We focus on smart energy solutions, advanced renewable energy materials, e-mobility, and
+                biofuel production to drive the country’s transition from fossil fuels to modern alternatives.</p>
+        </div>
     </section>
     <section id="sectt" class="hall">
         <div class="sect">
-            <h5 data-uw-rm-heading="level" role="heading" aria-level="4">WHY ENERGY</h5>
-            <h2>Energy Keeps Us Safe, Productive &amp; connected</h2>
-            <p>
-              However, the world’s current harnessing and consumption of energy is 
-              <span>unavailable to many and  unsustainable for all of us.</span>
-              
-              
-            </p>
+            <div class="sect-one">
+                <h5 data-uw-rm-heading="level" role="heading" aria-level="4">WHY ENERGY</h5>
+                <h2>Energy Keeps Us Safe, Productive &amp; connected</h2>
+                <p>
+                    However, the world’s current harnessing and consumption of energy is
+                    <span>unavailable to many and unsustainable for all of us.</span>
 
-            <h2>Our Vision</h2>
-    
-            <p>
-              This planet’s future will be shared by all of us - and we're 
-               here to <span>make that future bright for everyone.</span>
-              <br role="presentation" data-uw-rm-sr=""><br role="presentation" data-uw-rm-sr=""><br role="presentation" data-uw-rm-sr="">
-              Our vision is to provide 20 million people with access to clean energy and to avoid 3 million tons of CO2e by the year 2025.
-            </p>
-    </div>
+
+                </p>
+            </div>
+            <div class="sect-two">
+
+                <h2>Our Vision</h2>
+
+                <p>
+                    This planet’s future will be shared by all of us - and we're
+                    here to <span>make that future bright for everyone.</span>
+                    <br role="presentation" data-uw-rm-sr=""><br role="presentation" data-uw-rm-sr=""><br
+                        role="presentation" data-uw-rm-sr="">
+                    Our vision is to provide 20 million people with access to clean energy and to avoid 3 million tons
+                    of CO2e by the year 2025.
+                </p>
+            </div>
+        </div>
     </section>
     <!-- <section class="why-we-exist-section" class="hall">
         <div class="wrapper">
@@ -100,29 +113,35 @@
         <h2>Our Services</h2>
         <div class="services-container">
             <div class="service">
-                <div class="bb"><img src="./images/shop1.webp" alt="smart-socket"></div> 
+                <div class="bb"><img src="./images/shop1.webp" alt="smart-socket"></div>
 
                 <h3>Fire Pit+ - $300</h3>
-                <p>TIME Best Invention of 2023. Enjoy the warmth, smell, crackle, and feel of a wood campfire, without the smoke you’re used to. Create mesmerizing flames with BioLite’s patented combustion and get a full unobscured view thanks to X-Ray Mesh body. </p>
+                <p>TIME Best Invention of 2023. Enjoy the warmth, smell, crackle, and feel of a wood campfire, without
+                    the smoke you’re used to. Create mesmerizing flames with BioLite’s patented combustion and get a
+                    full unobscured view thanks to X-Ray Mesh body. </p>
             </div>
             <div class="service">
-               <div class="bb"><img src="./images/shop2.avif" alt="Biofuel Production"></div> 
+                <div class="bb"><img src="./images/shop2.avif" alt="Biofuel Production"></div>
 
                 <h3>Charge 80 PD - $100</h3>
-                <p>Designed to power the next generation of high-performance personal electronics, Charge 80 PD features USB-C Power Delivery for faster, more flexible charging. Charge compatible laptops, tablets, phones, and more</p>
+                <p>Designed to power the next generation of high-performance personal electronics, Charge 80 PD features
+                    USB-C Power Delivery for faster, more flexible charging. Charge compatible laptops, tablets, phones,
+                    and more</p>
             </div>
             <div class="service">
-                <div class="bb"><img src="./images/shop3.webp" alt="Biofuel Production"></div> 
+                <div class="bb"><img src="./images/shop3.webp" alt="Biofuel Production"></div>
 
                 <h3>Wood & Charcoal Rocket Stove - $200</h3>
-                <p>A durable, efficient stove to meet your outdoor cooking needs. Make meals or boil water easily using wood or charcoal. Perfect for camping and emergency readiness.</p>
+                <p>A durable, efficient stove to meet your outdoor cooking needs. Make meals or boil water easily using
+                    wood or charcoal. Perfect for camping and emergency readiness.</p>
             </div>
             <div class="service">
-                <div class="bb"><img src="./images/shop4.avif" alt="Biofuel Production"></div> 
+                <div class="bb"><img src="./images/shop4.avif" alt="Biofuel Production"></div>
 
                 <h3>Solar Generator 600 Kit+
                     622 Wh Power Station & 100W Panel - $1148</h3>
-                <p>The ideal kit starter kit for for fully off-grid solar power and storage. BaseCharge 600+'s Easy Read Smart LCD Dashboard provides real-time feedback on your system.</p>
+                <p>The ideal kit starter kit for for fully off-grid solar power and storage. BaseCharge 600+'s Easy Read
+                    Smart LCD Dashboard provides real-time feedback on your system.</p>
             </div>
         </div>
     </section>
@@ -130,101 +149,113 @@
 
     <!-- <section id="services">
         <h2>Our Products</h2> -->
-        <div class="services-container">
-            <div class="service">
-                <div class="bb"><img src="./images/shop5.avif" alt="smart-socket"></div> 
+    <div class="services-container">
+        <div class="service">
+            <div class="bb"><img src="./images/shop5.avif" alt="smart-socket"></div>
 
-                <h3>SolarPanel 100
-                    100 Watt Folding Solar Panel - $450</h3>
-                <p>A foldable 100 Watt solar panel designed to both charge devices directly as well as pair with the BioLite BaseCharge 600 & 1500 (sold separately) for a full solar generator solution.</p>
-            </div>
-            <div class="service">
-               <div class="bb"><img src="./images/shop6.avif" alt="Biofuel Production"></div> 
-
-                <h3>AlpenGlow Mini 4 Pack
-                    4x 150 Lumen USB Camping Lanterns - $250</h3>
-                <p>4-pack edition - Consists of 2 Charcoal and 2 Teals: Bright, easy to use, and flexible to setup, the AlpenGlow mini is a perfect compact lantern for the campsite and beyond</p>
-            </div>
-            <div class="service">
-                <div class="bb"><img src="./images/shop7.avif" alt="Biofuel Production"></div> 
-
-                <h3>BaseCharge 600+
-                    622 Wh Rechargeable Power Station - $650 </h3>
-                <p>NEW 2024 Model. A portable power station upgraded with faster recharging, higher solar capacity, and a new low price.</p>
-            </div>
-            <div class="service">
-                <div class="bb"><img src="./images/shop8.avif" alt="Biofuel Production"></div> 
-
-                <h3>BaseCharge Home Emergency Kit+
-                    Home Backup Power & Lighting - $1750 </h3>
-                <p>BioLite Shop Exclusive. Prepare for the next power outage with this family friendly kit that is ready to go right out of the box.</p>
-            </div>
+            <h3>SolarPanel 100
+                100 Watt Folding Solar Panel - $450</h3>
+            <p>A foldable 100 Watt solar panel designed to both charge devices directly as well as pair with the BioLite
+                BaseCharge 600 & 1500 (sold separately) for a full solar generator solution.</p>
         </div>
-        <div class="services-container">
-            <div class="service">
-                <div class="bb"><img src="./images/shop9.avif" alt="smart-socket"></div> 
+        <div class="service">
+            <div class="bb"><img src="./images/shop6.avif" alt="Biofuel Production"></div>
 
-                <h3>SolarHome 620+
-                    Solar Light, Charging, & Radio
-                    
-                      - $200</h3>
-                <p>Turn any off-grid structure into an electrified home with a kit that packs down to the size of a shoebox. </p>
-            </div>
-            <div class="service">
-               <div class="bb"><img src="./images/shop10.avif" alt="Biofuel Production"></div> 
-
-                <h3>Luci Outdoor 2.0 4 Pack
-                    4 Solar Inflatable Lanterns -$200 </h3>
-                <p>The Luci Outdoor 2.0 4-Pack is the perfect companion for all of your outdoor adventures, offering portable, sustainable light, no matter where the journey takes you.</p>
-            </div>
-            <div class="service">
-                <div class="bb"><img src="./images/shop11.webp" alt="Biofuel Production"></div> 
-
-                <h3>Luci Candle
-                    Rechargeable Solar Candle & Lantern - $25 </h3>
-                <p>Solar-powered, long-lasting, and flameless, Luci Candle provides all the ambiance of a candle with none of the worry</p>
-            </div>
-            <div class="service">
-                <div class="bb"><img src="./images/shop12.webp" alt="Biofuel Production"></div> 
-
-                <h3>SolarPanel 10+
-                    Foldable 10W Panel w/ Battery -$200 </h3>
-                <p>Get smart power from the sun with the portable BioLite SolarPanel 10+. Power tablets, phones, and other gear with 10 watts of usable electricity.</p>
-            </div>
+            <h3>AlpenGlow Mini 4 Pack
+                4x 150 Lumen USB Camping Lanterns - $250</h3>
+            <p>4-pack edition - Consists of 2 Charcoal and 2 Teals: Bright, easy to use, and flexible to setup, the
+                AlpenGlow mini is a perfect compact lantern for the campsite and beyond</p>
         </div>
-        <div class="services-container">
-            <div class="service">
-                <div class="bb"><img src="./images/shop13.webp" alt="smart-socket"></div> 
+        <div class="service">
+            <div class="bb"><img src="./images/shop7.avif" alt="Biofuel Production"></div>
 
-                <h3>HeadLamp 330
-                    No-Bounce Rechargeable Head Light
-                    
-                     -$75 </h3>
-                <p>Experience top-tier performance with a fit unlike any headlamp you’ve experienced thanks to our proprietary 3D SlimFit Construction.</p>
-            </div>
-            <div class="service">
-               <div class="bb"><img src="./images/shop15.webp" alt="Biofuel Production"></div> 
-
-                <h3>Charge 80 PD
-                    Fast USB-C PD Powerbank -$90 </h3>
-                <p>Designed to power the next generation of high-performance personal electronics, Charge 80 PD features USB-C Power Delivery for faster, more flexible charging.</p>
-            </div>
-            <div class="service">
-                <div class="bb"><img src="./images/shop16.webp" alt="Biofuel Production"></div> 
-
-                <h3>CampStove Complete Cook Kit
-                    Portable Wood Cooking System -$275 </h3>
-                <p>A packable outdoor kitchen perfect for the campsite. Generate electricity and create smokeless flames with the award-winning CampStove 2+ while cooking up your meals with the lightweight Portable Grill, KettlePot, and CoffeePress accessories.</p>
-            </div>
-            <div class="service">
-                <div class="bb"><img src="./images/shop17.webp" alt="Biofuel Production"></div> 
-
-                <h3>CampStove Grill
-                    Tabletop Grill For CampStove 2 -$75 </h3>
-                <p>Cook your favorite meals over wood with one of the lightest tabletop grills on the market.</p>
-            </div>
+            <h3>BaseCharge 600+
+                622 Wh Rechargeable Power Station - $650 </h3>
+            <p>NEW 2024 Model. A portable power station upgraded with faster recharging, higher solar capacity, and a
+                new low price.</p>
         </div>
-    
+        <div class="service">
+            <div class="bb"><img src="./images/shop8.avif" alt="Biofuel Production"></div>
+
+            <h3>BaseCharge Home Emergency Kit+
+                Home Backup Power & Lighting - $1750 </h3>
+            <p>BioLite Shop Exclusive. Prepare for the next power outage with this family friendly kit that is ready to
+                go right out of the box.</p>
+        </div>
+    </div>
+    <div class="services-container">
+        <div class="service">
+            <div class="bb"><img src="./images/shop9.avif" alt="smart-socket"></div>
+
+            <h3>SolarHome 620+
+                Solar Light, Charging, & Radio
+
+                - $200</h3>
+            <p>Turn any off-grid structure into an electrified home with a kit that packs down to the size of a shoebox.
+            </p>
+        </div>
+        <div class="service">
+            <div class="bb"><img src="./images/shop10.avif" alt="Biofuel Production"></div>
+
+            <h3>Luci Outdoor 2.0 4 Pack
+                4 Solar Inflatable Lanterns -$200 </h3>
+            <p>The Luci Outdoor 2.0 4-Pack is the perfect companion for all of your outdoor adventures, offering
+                portable, sustainable light, no matter where the journey takes you.</p>
+        </div>
+        <div class="service">
+            <div class="bb"><img src="./images/shop11.webp" alt="Biofuel Production"></div>
+
+            <h3>Luci Candle
+                Rechargeable Solar Candle & Lantern - $25 </h3>
+            <p>Solar-powered, long-lasting, and flameless, Luci Candle provides all the ambiance of a candle with none
+                of the worry</p>
+        </div>
+        <div class="service">
+            <div class="bb"><img src="./images/shop12.webp" alt="Biofuel Production"></div>
+
+            <h3>SolarPanel 10+
+                Foldable 10W Panel w/ Battery -$200 </h3>
+            <p>Get smart power from the sun with the portable BioLite SolarPanel 10+. Power tablets, phones, and other
+                gear with 10 watts of usable electricity.</p>
+        </div>
+    </div>
+    <div class="services-container">
+        <div class="service">
+            <div class="bb"><img src="./images/shop13.webp" alt="smart-socket"></div>
+
+            <h3>HeadLamp 330
+                No-Bounce Rechargeable Head Light
+
+                -$75 </h3>
+            <p>Experience top-tier performance with a fit unlike any headlamp you’ve experienced thanks to our
+                proprietary 3D SlimFit Construction.</p>
+        </div>
+        <div class="service">
+            <div class="bb"><img src="./images/shop15.webp" alt="Biofuel Production"></div>
+
+            <h3>Charge 80 PD
+                Fast USB-C PD Powerbank -$90 </h3>
+            <p>Designed to power the next generation of high-performance personal electronics, Charge 80 PD features
+                USB-C Power Delivery for faster, more flexible charging.</p>
+        </div>
+        <div class="service">
+            <div class="bb"><img src="./images/shop16.webp" alt="Biofuel Production"></div>
+
+            <h3>CampStove Complete Cook Kit
+                Portable Wood Cooking System -$275 </h3>
+            <p>A packable outdoor kitchen perfect for the campsite. Generate electricity and create smokeless flames
+                with the award-winning CampStove 2+ while cooking up your meals with the lightweight Portable Grill,
+                KettlePot, and CoffeePress accessories.</p>
+        </div>
+        <div class="service">
+            <div class="bb"><img src="./images/shop17.webp" alt="Biofuel Production"></div>
+
+            <h3>CampStove Grill
+                Tabletop Grill For CampStove 2 -$75 </h3>
+            <p>Cook your favorite meals over wood with one of the lightest tabletop grills on the market.</p>
+        </div>
+    </div>
+
 
     <!-- Contact Section -->
     <section id="contact">
@@ -251,4 +282,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
